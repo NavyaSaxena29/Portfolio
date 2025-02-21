@@ -75,18 +75,18 @@ export const myProjects = [
         href: 'https://www.sciencedirect.com/science/article/pii/S266630742100019X',
         link: 'Published Paper',
         texture: '',
-        logo: '/assets/project-logo1.png',
+        logo: 'assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'Python',
-                path: '/assets/python.jpg',
+                path: 'assets/python.jpg',
             },
             {
                 id: 2,
@@ -96,12 +96,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Neural Network',
-                path: '/assets/neural_network.png',
+                path: 'assets/neural_network.png',
             },
             {
                 id: 4,
                 name: 'Face recognition',
-                path: '/assets/face_recognition.jpg',
+                path: 'assets/face_recognition.jpg',
             },
         ],
     },
@@ -113,18 +113,18 @@ export const myProjects = [
         href: 'https://drive.google.com/file/d/1YakENDTctn7MRxFUJcaH46NmFOHRgki2/view?usp=sharing',
         link: 'Documentation',
         texture: '',
-        logo: '/assets/project-logo2.png',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'Python',
-                path: '/assets/python.jpg',
+                path: 'assets/python.jpg',
             },
             {
                 id: 2,
@@ -134,7 +134,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Neural Network',
-                path: '/assets/neural_network.png',
+                path: 'assets/neural_network.png',
             }
         ],
     },
@@ -146,7 +146,7 @@ export const myProjects = [
         href: 'https://drive.google.com/file/d/12QPH7g7Gd_3LIEylpe-UtiexWiwSd1Ue/view?usp=sharing',
         link: 'Demo',
         texture: '',
-        logo: '/assets/project-logo3.png',
+        logo: 'assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
@@ -154,12 +154,12 @@ export const myProjects = [
             border: '0.2px solid rgba(208, 213, 221, 1)',
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
-        spotlight: '/assets/spotlight3.png',
+        spotlight: 'assets/spotlight3.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -169,12 +169,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Google Forms',
-                path: '/assets/google.jpg',
+                path: 'assets/google.jpg',
             },
             {
                 id: 4,
                 name: 'Gmail',
-                path: '/assets/gmail.webp',
+                path: 'assets/gmail.webp',
             },
         ],
     },
@@ -274,7 +274,7 @@ export const workExperiences = [
         pos: 'Software Engineer 1',
         duration: 'January 2022 - July 2024',
         title: "At JPMorgan Chase, I worked as a Software Engineer for over two years, developing AI-powered solutions and full-stack applications to enhance document management and financial processes. I built a deep learning model using Keras and OpenCV to extract handwritten text from loan agreements, achieving 84% accuracy. I also designed web services for processing 280K LIBOR documents and created a global search application using OCR and Amazon OpenSearch. Additionally, I developed a cloud storage solution using Angular, Spring Boot, and AWS, streamlining services for multiple applications. My role involved collaborating with cross-functional teams, solving complex challenges, and delivering high-impact solutions in an agile environment.",
-        icon: '/assets/jpmc.jpeg',
+        icon: 'assets/jpmc.jpeg',
         animation: 'victory',
     },
     {
@@ -283,7 +283,7 @@ export const workExperiences = [
         pos: 'Intern',
         duration: 'June 2021 - August 2021',
         title: "At Optum Global Solutions, UnitedHealth Group, I worked as an intern, focusing on automation and software integration to improve testing efficiency. I developed automation scripts using Cypress and Cucumber to test the UI of web applications, reducing validation time by 50%. I also delivered an in-depth presentation on automation functionalities to team leaders, which led to the adoption of my solution across multiple applications. My experience at Optum strengthened my expertise in software testing, automation, and collaboration within a fast-paced development environment.",
-        icon: '/assets/optum.jpg',
+        icon: 'assets/optum.jpg',
         animation: 'clapping',
     },
     {
@@ -292,7 +292,7 @@ export const workExperiences = [
         pos: 'Intern',
         duration: 'May 2020 - July 2020',
         title: "At TransOrg Analytics, I worked as an intern, leveraging data science techniques to enhance machine learning models. I researched publicly available data using APIs and analyzed it with NumPy, Pandas, and Matplotlib to identify key parameters affecting sales trends during COVID-19. By incorporating these insights, I contributed to improving the accuracy of existing predictive models. Additionally, I performed requirement analysis and debugging on multiple models to optimize their performance. This experience deepened my understanding of data-driven decision-making and reinforced my skills in data analysis, machine learning, and problem-solving.",
-        icon: '/assets/transorg.jpg',
+        icon: 'assets/transorg.jpg',
         animation: 'salute',
     },
 ];
@@ -305,7 +305,7 @@ export const education = [
         gpa: '3.57/4.0',
         duration: 'August 2024 - May 2026',
         courses: "Analysis of Algorithms, Machine Learning, Artificial Intelligence, Software Systems, Big Data Analytics",
-        icon: '/assets/upenn.png',
+        icon: 'assets/upenn.png',
     },
     {
         id: 2,
@@ -314,6 +314,6 @@ export const education = [
         gpa: '9.56/10.0',
         duration: 'July 2018 - May 2022',
         courses: "Natural Language Processing, Image Processing, Operating System, Data Structures and Algorithms",
-        icon: '/assets/vit.png'
+        icon: 'assets/vit.png'
     }
 ];
