@@ -153,6 +153,26 @@ body {
   .icon-shift {
     margin-left: 14px;
   }
+
+  .category {
+    margin-bottom: 10px;
+  }
+
+  .skill-name{
+    color: darkgrey;
+    margin-right: 2px;
+  }
+
+  .skill-logo {
+    width: auto;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .skill-icon{
+    width: auto;
+    height: auto;
+  }
 }
 
 .waving-hand {

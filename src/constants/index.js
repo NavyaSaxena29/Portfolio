@@ -317,3 +317,278 @@ export const education = [
         icon: 'assets/vit.png'
     }
 ];
+
+export const skills = [
+    {
+        id: 1,
+        category: 'Programming Languages',
+        skill:[
+            {
+                id: 1,
+                name: 'Python',
+                icon: 'assets/python.jpg'
+            },
+            {
+                id: 2,
+                name: 'Java',
+                icon: 'assets/java.png'
+            },
+            {
+                id: 3,
+                name: 'C++',
+                icon: 'assets/c.png'
+            },
+            {
+                id: 4,
+                name: 'R',
+                icon: 'assets/r.svg'
+            },
+        ]
+    },
+    {
+        id: 2,
+        category: 'Database',
+        skill:[
+            {
+                id: 1,
+                name: 'SQL',
+                icon: 'assets/sql.png'
+            },
+            {
+                id: 2,
+                name: 'PostgreSQL',
+                icon: 'assets/postgres.png'
+            },
+            {
+                id: 3,
+                name: 'MongoDB',
+                icon: 'assets/mongodb.svg'
+            },
+        ]
+    },
+    {
+        id: 3,
+        category: 'Web Development',
+        skill:[
+            {
+                id: 1,
+                name: 'HTML',
+                icon: 'assets/html.png'
+            },
+            {
+                id: 2,
+                name: 'CSS',
+                icon: 'assets/css.png'
+            },
+            {
+                id: 3,
+                name: 'JavaScript',
+                icon: 'assets/javascript.png'
+            },
+            {
+                id: 4,
+                name: 'React',
+                icon: 'assets/react.svg'
+            },
+            {
+                id: 5,
+                name: 'Node.js',
+                icon: 'assets/nodejs.png'
+            },
+            {
+                id: 6,
+                name: 'Angular',
+                icon: 'assets/angular.png'
+            },
+            {
+                id: 7,
+                name: 'TypeScript',
+                icon: 'assets/typescript.png'
+            },
+            {
+                id: 8,
+                name: 'Spring Boot',
+                icon: 'assets/spring.png'
+            },
+            {
+                id: 9,
+                name: 'REST API',
+                icon: 'assets/api.svg'
+            },
+        ]
+    },
+    {
+        id: 4,
+        category: 'Artificial Intelligence and Machine Learning',
+        skill:[
+            {
+                id: 1,
+                name: 'ML Algorithms',
+                icon: 'assets/ml.png'
+            },
+            {
+                id: 2,
+                name: 'TensorFlow',
+                icon: 'assets/tensorflow.png'
+            },
+            {
+                id: 3,
+                name: 'OpenCV',
+                icon: 'assets/opencv.png'
+            },
+            {
+                id: 4,
+                name: 'PyTorch',
+                icon: 'assets/pytorch.png'
+            },
+            {
+                id: 5,
+                name: 'Pandas',
+                icon: 'assets/pandas.svg'
+            },
+            {
+                id: 6,
+                name: 'NumPy',
+                icon: 'assets/numpy.png'
+            },
+            {
+                id: 7,
+                name: 'Scikit-Learn',
+                icon: 'assets/scikit.png'
+            },
+        ]
+    },
+    {
+        id: 5,
+        category: 'Natural Language Processing',
+        skill:[
+            {
+                id: 1,
+                name: 'Generative AI',
+                icon: 'assets/genai.png'
+            },
+            {
+                id: 2,
+                name: 'OpenAI API',
+                icon: 'assets/openai.png'
+            },
+            {
+                id: 3,
+                name: 'Large Language Models',
+                icon: 'assets/llm.jpeg'
+            },
+            {
+                id: 4,
+                name: 'Retrieval-Augmented Generation',
+                icon: 'assets/rag.png'
+            },
+            {
+                id: 5,
+                name: 'LangChain',
+                icon: 'assets/langchain.png'
+            },
+            {
+                id: 6,
+                name: 'Hugging Face',
+                icon: 'assets/hugging face.svg'
+            },
+            {
+                id: 7,
+                name: 'Transformers',
+                icon: 'assets/neural_network.png'
+            },
+            {
+                id: 8,
+                name: 'OLLAMA',
+                icon: 'assets/Ollama.png'
+            },
+        ]
+    },
+    {
+        id: 6,
+        category: 'Amazon Web Services',
+        skill:[
+            {
+                id: 1,
+                name: 'RDS',
+                icon: 'assets/aws rds.png'
+            },
+            {
+                id: 2,
+                name: 'Elastic Search',
+                icon: 'assets/elasticsearch.png'
+            },
+            {
+                id: 3,
+                name: 'S3',
+                icon: 'assets/s3.png'
+            },
+            {
+                id: 4,
+                name: 'VPC',
+                icon: 'assets/vpc.png'
+            },
+            {
+                id: 5,
+                name: 'EC2',
+                icon: 'assets/ec2.png'
+            },
+            {
+                id: 6,
+                name: 'Deployment',
+                icon: 'assets/deploy.png'
+            },
+        ]
+    },
+    {
+        id: 7,
+        category: 'Tools',
+        skill:[
+            {
+                id: 1,
+                name: 'Git',
+                icon: 'assets/git.png'
+            },
+            {
+                id: 2,
+                    name: 'GitHub',
+                icon: 'assets/github.svg'
+            },
+            {
+                id: 3,
+                name: 'Jira',
+                icon: 'assets/jira.png'
+            },
+            {
+                id: 4,
+                name: 'Splunk',
+                icon: 'assets/splunk.png'
+            },
+            {
+                id: 5,
+                name: 'Jenkins',
+                icon: 'assets/jenkins.png'
+            },
+            {
+                id: 6,
+                name: 'Terraform',
+                icon: 'assets/terraform.svg'
+            },
+            {
+                id: 7,
+                name: 'Jupyter',
+                icon: 'assets/jupyter.svg'
+            },
+            {
+                id: 7,
+                name: 'Tableau',
+                icon: 'assets/tableau.svg'
+            },
+            {
+                id: 7,
+                name: 'CI/CD Pipelines',
+                icon: 'assets/cicd.png'
+            },
+        ]
+    },
+];
