@@ -1,0 +1,9 @@
+Steps to build and deploy:
+
+Run locally: npm run dev
+
+Build: npm run build
+
+Check preview locally: npm run preview
+
+Deploy: npm run deploy

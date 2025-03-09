@@ -106,6 +106,44 @@ export const myProjects = [
         ],
     },
     {
+        title: 'FactLens: AI-Powered Fake News Detection & Fact-Checking ',
+        desc: 'The project was implemented by fine-tuning DistilRoBERTa using PyTorch and Transformers for fake news classification. A custom dataset was preprocessed, tokenized, and split into training and validation sets. The model was trained using gradient accumulation and FP16 acceleration, achieving a training loss of 0.000100 and validation loss of 0.003292. Additionally, a FAISS-based retrieval system (FAISS-RAG) was built, leveraging sentence-transformer embeddings to store and retrieve similar news articles efficiently. The system was further enhanced with an OpenAI-powered explanation generator to provide context behind misinformation.',
+        subdesc:
+            'The final system integrates NLP, FAISS vector search, OpenAI API, LangChain, and Scikit-Learn, enabling real-time fact-checking. Given a news query, the pipeline retrieves relevant articles, classifies the content as real or fake with high accuracy, and generates explanations for misinformation. The model achieved an F1-score of 0.8140, demonstrating strong performance in detecting and explaining fake news, making it a robust tool for combating misinformation.',
+        href: 'https://colab.research.google.com/drive/1ciXd6qoiknzuJC-kYZdXMISCvX6ws407?usp=sharing',
+        link: 'Colab Notebook',
+        texture: '',
+        logo: 'assets/project-logo3.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: 'assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: 'assets/python.jpg',
+            },
+            {
+                id: 2,
+                name: 'Scikit',
+                path: 'assets/scikit.png',
+            },
+            {
+                id: 3,
+                name: 'Genrative AI',
+                path: 'assets/genai.png',
+            },
+            {
+                id: 4,
+                name: 'RAG',
+                path: 'assets/rag.png',
+            },
+        ],
+    },
+    {
         title: 'Classifying the American sign language using machine learning',
         desc: 'I led a team to develop a machine learning model for classifying American Sign Language (ASL) using convolutional neural networks (CNNs) and HSV color space filtering to separate hand gestures from the background. The model achieved 97% accuracy on the training dataset and was optimized for real-time classification, allowing users to spell out words and sentences through a camera feed. This project involved extensive preprocessing techniques, feature extraction, and model fine-tuning to ensure high accuracy across various lighting conditions and hand positions.',
         subdesc:
