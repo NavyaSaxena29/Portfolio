@@ -137,6 +137,11 @@ export const myProjects = [
                 id: 3,
                 name: 'Distributed Systems',
                 path: 'assets/distributed systems.jpg',
+            },
+            {
+                id: 4,
+                name: 'gRPC',
+                path: 'assets/grpc.webp',
             }
         ],
     },
