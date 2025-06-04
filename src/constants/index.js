@@ -106,6 +106,41 @@ export const myProjects = [
         ],
     },
     {
+        title: 'PennCloud Distributed Cloud Services Platform ',
+        desc: 'PennCloud is a distributed web platform built from scratch in C++ that emulates core functionalities of modern cloud systems—user account management, email services, and cloud storage—all backed by a scalable key-value store. The system supports real-world protocols like HTTP/1.1, chunked transfer encoding, and gRPC-based RPCs, and enables users to log in, send and receive emails, upload/download files, and organize them in a virtual file system through a browser-based UI. A custom load balancer, multithreaded frontend servers, and sharded backend services mirror the architecture of large-scale production deployments.',
+        subdesc:
+            'The platform features seamless client interaction with backend storage via session-managed persistent HTTP connections, automatic chunking for large files, and robust metadata handling for file and folder operations like move, rename, and delete. A custom SMTP-style Email Service enables full inbox and outbox workflows, while the admin console supports live monitoring and control of distributed worker nodes. Built over several weeks, this project highlights system design, low-level networking, concurrency, and resilient service orchestration.',
+        href: 'https://drive.google.com/file/d/1xHgT2KMdEFQZTKlTQV4AWp-Xsseg0U-T/view?usp=sharing',
+        link: 'Project Screenshots',
+        texture: '',
+        logo: 'assets/project-logo2.png',
+        logoStyle: {
+            backgroundColor: '#60f5a1',
+            background:
+                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+            border: '0.2px solid rgba(208, 213, 221, 1)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        },
+        spotlight: 'assets/spotlight3.png',
+        tags: [
+            {
+                id: 1,
+                name: 'C++',
+                path: 'assets/c.png',
+            },
+            {
+                id: 2,
+                name: 'HTML',
+                path: 'assets/html.png',
+            },
+            {
+                id: 3,
+                name: 'Distributed Systems',
+                path: 'assets/distributed systems.jpg',
+            }
+        ],
+    },
+    {
         title: 'FactLens: AI-Powered Fake News Detection & Fact-Checking ',
         desc: 'The project was implemented by fine-tuning DistilRoBERTa using PyTorch and Transformers for fake news classification. A custom dataset was preprocessed, tokenized, and split into training and validation sets. The model was trained using gradient accumulation and FP16 acceleration, achieving a training loss of 0.000100 and validation loss of 0.003292. Additionally, a FAISS-based retrieval system (FAISS-RAG) was built, leveraging sentence-transformer embeddings to store and retrieve similar news articles efficiently. The system was further enhanced with an OpenAI-powered explanation generator to provide context behind misinformation.',
         subdesc:
