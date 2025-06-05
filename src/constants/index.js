@@ -107,7 +107,7 @@ export const myProjects = [
     },
     {
         title: 'PennCloud Distributed Cloud Services Platform ',
-        desc: 'PennCloud is a distributed web platform built from scratch in C++ that emulates core functionalities of modern cloud systems—user account management, email services, and cloud storage—all backed by a scalable key-value store. The system supports real-world protocols like HTTP/1.1, chunked transfer encoding, and gRPC-based RPCs, and enables users to log in, send and receive emails, upload/download files, and organize them in a virtual file system through a browser-based UI. A custom load balancer, multithreaded frontend servers, and sharded backend services mirror the architecture of large-scale production deployments.',
+        desc: 'PennCloud is a distributed web platform built from scratch in C++ that emulates core functionalities of modern cloud systems - user account management, email services, and cloud storage - all backed by a scalable key-value store. The system supports real-world protocols like HTTP/1.1, chunked transfer encoding, and gRPC-based RPCs, and enables users to log in, send and receive emails, upload/download files, and organize them in a virtual file system through a browser-based UI. A custom load balancer, multithreaded frontend servers, and sharded backend services mirror the architecture of large-scale production deployments.',
         subdesc:
             'The platform features seamless client interaction with backend storage via session-managed persistent HTTP connections, automatic chunking for large files, and robust metadata handling for file and folder operations like move, rename, and delete. A custom SMTP-style Email Service enables full inbox and outbox workflows, while the admin console supports live monitoring and control of distributed worker nodes. Built over several weeks, this project highlights system design, low-level networking, concurrency, and resilient service orchestration.',
         href: 'https://drive.google.com/file/d/1xHgT2KMdEFQZTKlTQV4AWp-Xsseg0U-T/view?usp=sharing',
@@ -143,6 +143,44 @@ export const myProjects = [
                 name: 'gRPC',
                 path: 'assets/grpc.webp',
             }
+        ],
+    },
+    {
+        title: 'India Real Estate Price Prediction',
+        desc: 'In this project, I developed a full machine learning pipeline to predict real estate prices across six major Indian cities using a dataset of over 330,000 property listings. The workflow spanned advanced data cleaning with regex, geospatial clustering, and crafting engineered features like price per BHK and days on market. Through extensive EDA, hypothesis testing, and correlation analysis, I uncovered key market trends—such as Delhi commanding the highest median prices and furnished homes carrying a 15–30% premium.',
+        subdesc:
+            'I trained and tuned models including Linear Regression, Random Forest, and XGBoost, ultimately achieving a test R² of 0.897. Using SHAP values and partial dependence plots, I interpreted the most influential factors—location, property type, and furnishing status. The project also featured interactive geo-visualizations of India’s price hotspots using GeoPandas and Folium, providing a powerful, data-driven lens into one of the world’s fastest-growing housing markets.',
+        href: 'https://colab.research.google.com/drive/1qcC1E65mVqlgB0YPhtaEG8FthpodNC9E',
+        link: 'Colab Notebook',
+        texture: '',
+        logo: 'assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: 'assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: 'assets/python.jpg',
+            },
+            {
+                id: 2,
+                name: 'Scikit',
+                path: 'assets/scikit.png',
+            },
+            {
+                id: 3,
+                name: 'ML',
+                path: 'assets/ml.png',
+            },
+            {
+                id: 4,
+                name: 'Pandas',
+                path: 'assets/pandas.svg',
+            },
         ],
     },
     {
@@ -348,6 +386,15 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
+        name: 'Wharton ESG Initiative, University of Pennsylvania ',
+        pos: 'Graduate Research Assistant',
+        duration: 'March 2025 – May 2025',
+        title: "At the ESG Initiative at Wharton–UPenn, I developed a scalable, interpretable framework to classify 19K+ investment strategies by their ESG focus. I curated and cleaned a 500+ term vocabulary across environment, social, governance, financial, and moral-values factors, then engineered features based on keyword frequency, semantic context, and negation. By integrating these into zero-shot (BART-MNLI) and logistic regression models, I boosted classification accuracy to 83% on labeled samples - enabling reliable, reproducible ESG scoring at scale.",
+        icon: 'assets/esg wharton.jpeg',
+        animation: 'clapping',
+    },
+    {
+        id: 2,
         name: 'JPMorgan Chase',
         pos: 'Software Engineer 1',
         duration: 'January 2022 - July 2024',
@@ -356,7 +403,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 2,
+        id: 3,
         name: 'Optum Global Solutions, UnitedHealth Group',
         pos: 'Intern',
         duration: 'June 2021 - August 2021',
@@ -365,7 +412,7 @@ export const workExperiences = [
         animation: 'clapping',
     },
     {
-        id: 3,
+        id: 4,
         name: 'TransOrg Analytics',
         pos: 'Intern',
         duration: 'May 2020 - July 2020',
@@ -380,7 +427,7 @@ export const education = [
         id: 1,
         name: 'University of Pennsylvania',
         degree: 'Master of Science in Computer and Information Science',
-        gpa: '3.57/4.0',
+        gpa: '3.78/4.0',
         duration: 'August 2024 - May 2026',
         courses: "Analysis of Algorithms, Machine Learning, Artificial Intelligence, Software Systems, Big Data Analytics",
         icon: 'assets/upenn.png',
